@@ -12,6 +12,9 @@
 		E208D0EF1ECA996500888026 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E208D0ED1ECA996500888026 /* Main.storyboard */; };
 		E208D0F11ECA996500888026 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E208D0F01ECA996500888026 /* Assets.xcassets */; };
 		E208D0F41ECA996500888026 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E208D0F21ECA996500888026 /* LaunchScreen.storyboard */; };
+		E208D0FF1ECA9A3200888026 /* Blood.png in Resources */ = {isa = PBXBuildFile; fileRef = E208D0FC1ECA9A3200888026 /* Blood.png */; };
+		E208D1001ECA9A3200888026 /* Moon.png in Resources */ = {isa = PBXBuildFile; fileRef = E208D0FD1ECA9A3200888026 /* Moon.png */; };
+		E208D1011ECA9A3200888026 /* Sun.png in Resources */ = {isa = PBXBuildFile; fileRef = E208D0FE1ECA9A3200888026 /* Sun.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		E208D0F01ECA996500888026 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E208D0F31ECA996500888026 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E208D0F51ECA996500888026 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E208D0FC1ECA9A3200888026 /* Blood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Blood.png; sourceTree = "<group>"; };
+		E208D0FD1ECA9A3200888026 /* Moon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Moon.png; sourceTree = "<group>"; };
+		E208D0FE1ECA9A3200888026 /* Sun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sun.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +64,21 @@
 				E208D0EB1ECA996500888026 /* ViewController.swift */,
 				E208D0ED1ECA996500888026 /* Main.storyboard */,
 				E208D0F01ECA996500888026 /* Assets.xcassets */,
+				E208D0FB1ECA9A3200888026 /* Background Images */,
 				E208D0F21ECA996500888026 /* LaunchScreen.storyboard */,
 				E208D0F51ECA996500888026 /* Info.plist */,
 			);
 			path = iWeather;
+			sourceTree = "<group>";
+		};
+		E208D0FB1ECA9A3200888026 /* Background Images */ = {
+			isa = PBXGroup;
+			children = (
+				E208D0FC1ECA9A3200888026 /* Blood.png */,
+				E208D0FD1ECA9A3200888026 /* Moon.png */,
+				E208D0FE1ECA9A3200888026 /* Sun.png */,
+			);
+			path = "Background Images";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,7 +140,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E208D1011ECA9A3200888026 /* Sun.png in Resources */,
+				E208D0FF1ECA9A3200888026 /* Blood.png in Resources */,
 				E208D0F41ECA996500888026 /* LaunchScreen.storyboard in Resources */,
+				E208D1001ECA9A3200888026 /* Moon.png in Resources */,
 				E208D0F11ECA996500888026 /* Assets.xcassets in Resources */,
 				E208D0EF1ECA996500888026 /* Main.storyboard in Resources */,
 			);
